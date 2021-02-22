@@ -1,0 +1,126 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+
+      <!-- **********************************************************************************************************************************************************
+      MAIN CONTENT>
+      *********************************************************************************************************************************************************** -->
+      <!--main content start-->
+      <section id="main-content">
+        <section class="wrapper">
+            <!--<div class="row">-->
+                <div class="col-md-12 col-sm-12">
+                    <div class="tile is-ancestor">
+
+                    </div>
+
+                    <div class="tile is-ancestor m-4 p-4">
+                        <div class="tile is-ancestor">
+                            <div class="tile is-3 is-vertical is-parent">
+                                <article class="tile is-child notification is-warning text-justify">
+                                    <p class="title">ACCIDENTALIDAD POR LOCALIDAD</p>
+                                    <p class="title">Analisis</p>
+                                    <p>Las localidades presenta un patron bastante peculiar, como se observa en el mapa las zonas mas hacia el norte
+                                        son donde se presenta el mayor numero de accidentes, llegando ha superar un registro de mas de <strong>17.500</strong> accidentes
+                                        y esto puede permitir plantearse la hipotesis de que esto es a causa de varios factore.</p>
+                                    <p>El primero es que esta zona es concentra a gran parte de la poblacion tanto por vivir alli como por las empresas que se encuentran localizadas
+                                        en esta parte de la ciudad.
+                                    </p>
+                                    <p>El segundo por la capacidad de tener un automovil que se preenta en esta zona, pues se trata de una zona de alto estrato economico
+                                        lo que causa un mayor nivel de vahiculos y personas transitando por las vias.
+                                    </p>
+                                </article>
+                            </div>
+                            <div class="tile is-parent">
+                                <article class="tile is-child box text-justify">
+                                    <p class="title">ACCIDENTALIDAD POR LOCALIDAD</p>
+                                    <p>Este analisis nos permite generar un mapa de calir de la ciudad de Bogotá, en donde el criterio es
+                                        la cantidad de accidentes por localidades, asi podemos evidenciar que la zonas con mas accidentalidad presentan colores claros 
+                                    hasta llegar al amarillo, mientras que los lugares de menos accidentes presentanun tono oscuro llegando hasta un azul opaco. </p>
+                                    <div class="col-md-12 col-sm-12 container mx-aut d-block text-center">
+                                        <img src="{{ url_for('static', filename='images/MapaAccidentesLocalidad.jpg') }}" class="rounded mx-auto d-block" alt="">
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mtbox">
+                    <div class="col-md-12 col-sm-12">
+                        <h1 class="text-primary text-center"></h1>
+                    </div>
+
+                    <div>
+                        
+                        
+                        
+                    </div>
+
+                        
+                        
+                        
+
+                        <!--
+                        <div class="col-md-2 col-sm-2 col-md-offset-1 box0">
+                            <div class="box1">
+                                        <span class="li_heart"></span>
+                                        <h3>933</h3>
+                      </div>
+                                    <p>Accidentalidad</p>
+                        </div>
+                        <div class="col-md-2 col-sm-2 box0">
+                            <div class="box1">
+                                        <span class="li_cloud"></span>
+                                        <h3>48</h3>
+                            </div>
+                                      <p>Clima</p>
+                        </div>
+                        <div class="col-md-2 col-sm-2 box0">
+                            <div class="box1">
+                                        <span class="li_stack"></span>
+                                        <h3>23</h3>
+                            </div>
+                                      <p>Registros</p>
+                        </div>
+                        <div class="col-md-2 col-sm-2 box0">
+                            <div class="box1">
+                                        <span class="li_news"></span>
+                                        <h3>50</h3>
+                            </div>
+                                      <p>Datos Importantes</p>
+                        </div>
+                        <div class="col-md-2 col-sm-2 box0">
+                            <div class="box1">
+                                        <span class="li_data"></span>
+                                        <h3>OK!</h3>
+                            </div>
+                                      <p>Registros completos</p>
+                        </div>
+                        -->
+
+                    </div><!-- /row mt -->
+
+              <!-- **********************************************************************************************************************************************************
+              BARRA DERECHA DE NOTOFOCACIONES
+              *********************************************************************************************************************************************************** -->
+
+            </div><!--/row -->
+        </section>
+    </section>
+    <!--main content end-->
+
+
+    <!--footer start-->
+    <footer class="site-footer">
+        <div class="text-center">
+            2021 - Jeison Jara - Sebastian Mancera - Universidad Distrital Francisco Jose De Caldas 
+            <a href="{{ url_for('accidentalidad.home') }}#" class="go-top">
+                <i class="fa fa-angle-up"></i>
+            </a>
+        </div>
+    </footer>
+    <!--footer end-->
+</section>
+
+{% endblock %}

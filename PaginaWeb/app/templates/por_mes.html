@@ -1,0 +1,124 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+
+      <!-- **********************************************************************************************************************************************************
+      MAIN CONTENT>
+      *********************************************************************************************************************************************************** -->
+      <!--main content start-->
+      <section id="main-content">
+        <section class="wrapper">
+            <!--<div class="row">-->
+                <div class="col-md-12 col-sm-12">
+                    <div class="tile is-ancestor">
+
+                    </div>
+
+                    <div class="tile is-ancestor m-4 p-4">
+                        <div class="tile is-ancestor">
+                            <div class="tile is-3 is-vertical is-parent">
+                                <article class="tile is-child notification is-primary text-justify">
+                                    <p class="title">ACCIDENTALIDAD POR MES</p>
+                                    <p class="title">Analisis</p>
+                                    <p>Podemos evidenciar que uno de los mese con mayor accidentalidad es el mes de <strong>mayo</strong>, 
+                                    la accidentalidad que se presenta en estemes es de las mayores.</p>
+                                    <p>El mez de <strong>marzo</strong> presenta el dia con mas accidentes, es decir el viernes con <strong>2580</strong> 
+                                    accidentes registrados en ese dia especifico.</p>
+                                    <p>Finalmente se observa que los dias <strong>domingo</strong> se presentan la menor cantidad de accidentes, siendo
+                                    muy logico por ser u dia de descanso.</p>
+                                </article>
+                            </div>
+                            <div class="tile is-parent">
+                                <article class="tile is-child box text-justify">
+                                    <p class="title">ACCIDENTALIDAD POR MES</p>
+                                    <p>El analisis de datos nos permite obtener unos resultados bastante completos sobre los accidentes por mes, en este analisis 
+                                    se puede a demas de el mes, los dias en que ocurren donde se permite ver la cantidad de accidentes en cierto dia de la semana especifico,
+                                    a su vaz se presenta de forma grafica de manera mas fuerta los dias en que se presentan mas accidentes, mientras que en un tono mas claro los dias en que hay 
+                                    menos accidentalidad</p>
+                                    <div class="col-md-12 col-sm-12 container mx-aut d-block text-center">
+                                        <img src="{{ url_for('static', filename='images/Accidentes_por_mes.jpg') }}" class="rounded mx-auto d-block" alt="">
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mtbox">
+                    <div class="col-md-12 col-sm-12">
+                        <h1 class="text-primary text-center"></h1>
+                    </div>
+
+                    <div>
+                        
+                        
+                        
+                    </div>
+
+                        
+                        
+                        
+
+                        <!--
+                        <div class="col-md-2 col-sm-2 col-md-offset-1 box0">
+                            <div class="box1">
+                                        <span class="li_heart"></span>
+                                        <h3>933</h3>
+                      </div>
+                                    <p>Accidentalidad</p>
+                        </div>
+                        <div class="col-md-2 col-sm-2 box0">
+                            <div class="box1">
+                                        <span class="li_cloud"></span>
+                                        <h3>48</h3>
+                            </div>
+                                      <p>Clima</p>
+                        </div>
+                        <div class="col-md-2 col-sm-2 box0">
+                            <div class="box1">
+                                        <span class="li_stack"></span>
+                                        <h3>23</h3>
+                            </div>
+                                      <p>Registros</p>
+                        </div>
+                        <div class="col-md-2 col-sm-2 box0">
+                            <div class="box1">
+                                        <span class="li_news"></span>
+                                        <h3>50</h3>
+                            </div>
+                                      <p>Datos Importantes</p>
+                        </div>
+                        <div class="col-md-2 col-sm-2 box0">
+                            <div class="box1">
+                                        <span class="li_data"></span>
+                                        <h3>OK!</h3>
+                            </div>
+                                      <p>Registros completos</p>
+                        </div>
+                        -->
+
+                    </div><!-- /row mt -->
+
+              <!-- **********************************************************************************************************************************************************
+              BARRA DERECHA DE NOTOFOCACIONES
+              *********************************************************************************************************************************************************** -->
+
+            </div><!--/row -->
+        </section>
+    </section>
+    <!--main content end-->
+
+
+    <!--footer start-->
+    <footer class="site-footer">
+        <div class="text-center">
+            2021 - Jeison Jara - Sebastian Mancera - Universidad Distrital Francisco Jose De Caldas 
+            <a href="{{ url_for('accidentalidad.home') }}#" class="go-top">
+                <i class="fa fa-angle-up"></i>
+            </a>
+        </div>
+    </footer>
+    <!--footer end-->
+</section>
+
+{% endblock %}
