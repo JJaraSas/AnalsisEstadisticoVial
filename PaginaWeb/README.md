@@ -9,9 +9,9 @@ Debemos tener Python 3.7 o superior instalado en el sistema y configurado en las
 
 ### Instalación 🔧
 
-Para la **Instalacion** debemos descargar primero esta carpeta del repositorio "PaginaWeb". Una vez descargada abriremos una linea de comandos (CMD, PowerShell,..) y nos hubicamos subre el directorio de la carpeta la carpeta descargada.
+Para la **Instalacion** debemos descargar primero esta carpeta del repositorio **PaginaWeb**. Una vez descargada abriremos una linea de comandos (CMD, PowerShell,..) y nos hubicamos subre el directorio de la carpeta la carpeta descargada.
 
-Iniciaremos creando un entrono virtual para la aplicacion y asi no afectar nuestro sistema, asi que en la consola ejecutamos el siguiente comando, escogiendo el _nombre_entorno virtual_ que deseemos (venv por lo general)
+Iniciaremos creando un entrono virtual para la aplicacion y asi no afectar nuestro sistema, asi que en la consola ejecutamos el siguiente comando, escogiendo el _nombre_entorno virtual_ que deseemos (**venv** por lo general)
 
 ```
 python -m venv nombre_entorno virtual
@@ -35,13 +35,37 @@ Para desactivar el entorno virtual usaremos.
 deactivate
 ```
 
-## Instalacion 🚀
+Finalmente instalamos los requisitos necesarios con el comando.
 
+```
+pip install -r requirements.txt
+```
 
+## Ejecucion 🚀
+
+Ahora ejecutaremos flask para poder acceder a la pagina, asi que con el entorno virtual activado y los requerimientos instalados procedemos a escribir lo siguiente.
+
+```
+flask run 
+```
+
+Si todo es correcto veremos que podemos acceder a nuestro desarrollo por medio de localhost.
+
+```
+* Running on http://127.0.0.1:5000/
+```
 
 ## Ejecutando las pruebas ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+Ahora accederemos al navegador web y escribimos la direccion de arriba en la barra de direcciones.
+
+```
+http://127.0.0.1:5000/
+```
+
+Y podremos acceder a la pagina web con la informacion recolectada.
+
+![alt text](http://url/to/img.png)
 
 ### Analice las pruebas end-to-end 🔩
 
