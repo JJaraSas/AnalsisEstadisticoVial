@@ -3,11 +3,11 @@
 Explicaremos como se instala la aplicacion y su utilizacion
 
 
-### Pre-requisitos 📋
+## Pre-requisitos 📋
 
 Debemos tener Python 3.7 o superior instalado en el sistema y configurado en las variables de entorno [aqui](https://tutorial.djangogirls.org/es/python_installation/)
 
-### Instalación 🔧
+## Instalación 🔧
 
 Para la **Instalacion** debemos descargar primero esta carpeta del repositorio **PaginaWeb**. Una vez descargada abriremos una linea de comandos (CMD, PowerShell,..) y nos hubicamos subre el directorio de la carpeta la carpeta descargada.
 
@@ -55,7 +55,7 @@ Si todo es correcto veremos que podemos acceder a nuestro desarrollo por medio d
 * Running on http://127.0.0.1:5000/
 ```
 
-## Ejecutando las pruebas ⚙️
+### Ejecutando las pruebas ⚙️
 
 Ahora accederemos al navegador web y escribimos la direccion de arriba en la barra de direcciones.
 
@@ -65,69 +65,56 @@ http://127.0.0.1:5000/
 
 Y podremos acceder a la pagina web con la informacion recolectada.
 
-![alt text](http://url/to/img.png)
+![Pagina Inicio](https://github.com/SebastianMancera/AnalisisEstadisticoVial/blob/pagina_web/PaginaWeb/imagenesmanual/principal.PNG?raw=true)
 
-### Analice las pruebas end-to-end 🔩
+En la pagina principal tendremos una breve descripcion del proyecto, y un menu a la izquierda que puede quitarse o mostrarse presionando el boton de las tres lineas.
 
-_Explica que verifican estas pruebas y por qué_
+![Boton Menu](https://github.com/SebastianMancera/AnalisisEstadisticoVial/blob/pagina_web/PaginaWeb/imagenesmanual/ocultarmenu.PNG?raw=true)
+
+Ahora para navegar por la pagina tendremos el sisguiente menu.
+
+![Menu](https://github.com/SebastianMancera/AnalisisEstadisticoVial/blob/pagina_web/PaginaWeb/imagenesmanual/menu.PNG?raw=true)
+
+Alli encontraremos las categorias de los diferentes analsis que se obtubieron por medio del [registro de siniestros viales](https://github.com/SebastianMancera/AnalisisEstadisticoVial/blob/pagina_web/Data/2015_2019_siniestralidad_vial.xlsx)
+
+Algunas de las opciones del menu pueden expandirse para entrar mas en detalle de los datos analizados.
+
+![Menu Deplegable](https://github.com/SebastianMancera/AnalisisEstadisticoVial/blob/pagina_web/PaginaWeb/imagenesmanual/menuexpandido.PNG?raw=true)
+
+Al acceder a las secciones seremos llevados a una nueva pagina con la informacion que esta contiene.
+
+![Nueva Ventana](https://github.com/SebastianMancera/AnalisisEstadisticoVial/blob/pagina_web/PaginaWeb/imagenesmanual/nuevaseccion.PNG?raw=true)
+
+Finalemente podemos cerrar el navegador para salir de la pagina y acceder siempre que lo deseemos activando Flask como se menciono con anterioridad.
+
+### Desinstalacion 🔩
+
+Para quitar la aplicacion simplemente debemos ejecutar el comando de desactivar el entorno virtual
 
 ```
-Da un ejemplo
+deactivate
 ```
 
-### Y las pruebas de estilo de codificación ⌨️
+Y eliminar el directorio donde se extrajo la informacion.
 
-_Explica que verifican estas pruebas y por qué_
 
-```
-Da un ejemplo
-```
+## Herramientas 📌
 
-## Despliegue 📦
+Las siguientes herraientas fueron usadas en el proyecto:
 
-_Agrega notas adicionales sobre como hacer deploy_
 
-## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+[Pandas](https://pandas.pydata.org/) Pandas es una biblioteca de software escrita como extensión de NumPy para manipulación y análisis de datos.
+[Numpy](https://numpy.org/) Da soporte para crear vectores y matrices grandes multidimensionales.
+[Geopandas](https://geopandas.org/) Facilita el trabajo con datos geoespaciales en python
+[Matplotlib](https://matplotlib.org/stable/index.html) Es una biblioteca para la generación de gráficos a partir de datos contenidos en listas o arrays.
+[Flask](https://flask.palletsprojects.com/en/1.1.x/) Permite crear aplicaciones web rápidamente y con un mínimo número de líneas de código.
+[Seaborn](https://seaborn.pydata.org/) Biblioteca de visualización de datos de Python basada en matplotlib.
+[datetime](https://docs.python.org/es/3/library/datetime.html) Incluye funciones y clases para hacer análisis, formateo y aritmética de fecha y hora..
 
 ## Autores ✒️
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
+* **Sebastian Mancera** - *Trabajo Inicial* - [SebastianMancera](https://github.com/SebastianMancera)
+* **Jeison Jara** - *Documentación* - [JJaraSas](https://github.com/JJaraSas)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
-
-
-
----
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
