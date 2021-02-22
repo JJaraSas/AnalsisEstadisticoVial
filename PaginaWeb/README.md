@@ -5,7 +5,7 @@ Explicaremos como se instala la aplicacion y su utilizacion
 
 ## Pre-requisitos 📋
 
-Debemos tener Python 3.7 o superior instalado en el sistema y configurado en las variables de entorno [aqui](https://tutorial.djangogirls.org/es/python_installation/)
+Debemos tener Python 3.7 o superior instalado en el sistema y configurado en las variables de entorno ([aqui](https://tutorial.djangogirls.org/es/python_installation/))
 
 ## Instalación 🔧
 
