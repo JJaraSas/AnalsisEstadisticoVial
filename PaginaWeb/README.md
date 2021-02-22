@@ -14,7 +14,7 @@ Para la **Instalacion** debemos descargar primero esta carpeta del repositorio *
 Iniciaremos creando un entrono virtual para la aplicacion y asi no afectar nuestro sistema, asi que en la consola ejecutamos el siguiente comando, escogiendo el _nombre_entorno virtual_ que deseemos (**venv** por lo general)
 
 ```
-python -m venv nombre_entorno virtual
+python -m venv nombre_entorno_virtual
 ```
 
 Esperamos que se realice lainstalacion, cuando termine activamos el entorno virtual.
