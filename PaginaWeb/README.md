@@ -60,7 +60,7 @@ Si todo es correcto veremos que podemos acceder a nuestro desarrollo por medio d
 Ahora accederemos al navegador web y escribimos la direccion de arriba en la barra de direcciones.
 
 ```
-http://127.0.0.1:5000/
+http://localhost:5000/home
 ```
 
 Y podremos acceder a la pagina web con la informacion recolectada.
