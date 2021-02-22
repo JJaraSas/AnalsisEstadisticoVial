@@ -1,0 +1,38 @@
+.producto {
+    background-color: rgb(253, 253, 253);
+    text-align: center;
+    margin: 5px;
+    padding: 10%;
+}
+
+.producto:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+.titulo {
+    text-align: center;
+}
+
+.img-producto {
+    text-align: center;
+}
+
+.precio {
+    text-align: center;
+    font-weight: bold;
+}
+
+.descripcion {
+    line-height: normal;
+}
+
+.list-group-mine .list-group-item {
+    background-color: hsl(240, 56%, 96%);
+    border-top: 1px solid #0091b5;
+    border-left-color: #fff;
+    border-right-color: #fff;
+  }
+  
+  .list-group-mine .list-group-item:hover {
+    background-color: red;
+  }
