@@ -103,18 +103,18 @@ Y eliminar el directorio donde se extrajo la informacion.
 Las siguientes herraientas fueron usadas en el proyecto:
 
 
-[Pandas](https://pandas.pydata.org/) Pandas es una biblioteca de software escrita como extensión de NumPy para manipulación y análisis de datos.
-[Numpy](https://numpy.org/) Da soporte para crear vectores y matrices grandes multidimensionales.
-[Geopandas](https://geopandas.org/) Facilita el trabajo con datos geoespaciales en python
-[Matplotlib](https://matplotlib.org/stable/index.html) Es una biblioteca para la generación de gráficos a partir de datos contenidos en listas o arrays.
-[Flask](https://flask.palletsprojects.com/en/1.1.x/) Permite crear aplicaciones web rápidamente y con un mínimo número de líneas de código.
-[Seaborn](https://seaborn.pydata.org/) Biblioteca de visualización de datos de Python basada en matplotlib.
-[datetime](https://docs.python.org/es/3/library/datetime.html) Incluye funciones y clases para hacer análisis, formateo y aritmética de fecha y hora..
+[Pandas](https://pandas.pydata.org/) Pandas es una biblioteca de software escrita como extensión de NumPy para manipulación y análisis de datos.  
+[Numpy](https://numpy.org/) Da soporte para crear vectores y matrices grandes multidimensionales.  
+[Geopandas](https://geopandas.org/) Facilita el trabajo con datos geoespaciales en python.  
+[Matplotlib](https://matplotlib.org/stable/index.html) Es una biblioteca para la generación de gráficos a partir de datos contenidos en listas o arrays.  
+[Flask](https://flask.palletsprojects.com/en/1.1.x/) Permite crear aplicaciones web rápidamente y con un mínimo número de líneas de código.  
+[Seaborn](https://seaborn.pydata.org/) Biblioteca de visualización de datos de Python basada en matplotlib.  
+[datetime](https://docs.python.org/es/3/library/datetime.html) Incluye funciones y clases para hacer análisis, formateo y aritmética de fecha y hora.  
 
 ## Autores ✒️
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Sebastian Mancera** - *Trabajo Inicial* - [SebastianMancera](https://github.com/SebastianMancera)
-* **Jeison Jara** - *Documentación* - [JJaraSas](https://github.com/JJaraSas)
+* **Sebastian Mancera** - *Analisis Estadistico* - [SebastianMancera](https://github.com/SebastianMancera)
+* **Jeison Jara** - *Pagina Web* - [JJaraSas](https://github.com/JJaraSas)
 
